@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const profiles = [1, 2, 3, 4, 5];
 
@@ -13,6 +13,7 @@ const ProfilesPage = () => {
           </Link>
         );
       })}
+      <Outlet />
     </div>
   );
 };
