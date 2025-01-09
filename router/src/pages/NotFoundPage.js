@@ -8,8 +8,8 @@ const NotFoundPage = () => {
         404 Not Found
         {/* Link tag from react(does not  refresh the whole page) */}
         <Link to={"/"}>Home from Link</Link>;
-        {/* native anchor tag (refreshes the whole page) */}
-        <a href="/">Home from A</a>
+        {/* native anchor tag (refreshes the whole page)
+        <a href="/">Home from A</a> */}
       </div>
     </>
   );
