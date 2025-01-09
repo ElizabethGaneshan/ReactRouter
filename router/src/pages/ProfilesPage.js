@@ -8,7 +8,7 @@ const ProfilesPage = () => {
     <div className="flex flex-col gap-2">
       {profiles?.map((profile, index) => {
         return (
-          <Link key={index} to={`/profiles${profile}`}>
+          <Link key={index} to={`/profiles/${profile}`}>
             Profile {profile}
           </Link>
         );
